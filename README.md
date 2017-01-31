@@ -4,5 +4,4 @@
 
 Here's my output: 8hrs of hardwork
 
-![image](https://drive.google.com/file/d/0B1zwSQq-DM9MdTZlcFhPaVVTTms/view)
-[![quack 1.png](https://s30.postimg.org/m4so8tkap/quack_1.png)](https://postimg.org/image/hvny6nh19/)
+[![quack 1.png](https://s19.postimg.org/51ecmf86r/quack_1.png)](https://postimg.org/image/ow0e8jne7/)
