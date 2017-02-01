@@ -1,4 +1,4 @@
-# Mapping earthquakes in Python 3.5 using [Plotly](https://plot.ly/)
+# Mapping earthquakes in Python 3.5 using [Plotly](https://plot.ly/~mantejsingh/88/most-calamities-hover-for-details/)
 ### Wrangling work with earthquake dataset.
 
 
