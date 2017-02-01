@@ -12,7 +12,8 @@ Here's my output: 8hrs of hardwork
 ## Download the USGS quakes data
 
 The USGS earthquakes dataset, download it from [Earthquake Hazards Program](http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php):
-http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv
+
+ [Direct download link] (http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv)
 
 
 
