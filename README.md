@@ -4,8 +4,7 @@
 
 Here's my output: 8hrs of hardwork
 
-[![quack 1.png](https://s19.postimg.org/51ecmf86r/quack_1.png)](https://postimg.org/image/ow0e8jne7/)
-
+[![quack-1.png](https://i.postimg.cc/TYWphJ7b/quack-1.png)](https://postimg.cc/ppR26ztV)
 
 
 
@@ -40,5 +39,4 @@ for i in range(len(types)):
 ```
 data1=df.groupby('type').count()
 ```
-[![screenshot_1.png](https://s19.postimg.org/gww1dh8ab/screenshot_1.png)](https://postimg.org/image/aj6ya83e7/)
-
+[![screenshot-1.png](https://i.postimg.cc/yYZQY2Fz/screenshot-1.png)](https://postimg.cc/w79cwffW)
