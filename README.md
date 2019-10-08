@@ -26,14 +26,34 @@ for i in range(len(types)):
         lon = df_sub['longitude'],
         lat = df_sub['latitude'],
         text = df_sub['text'],
-        #colorscale = scl,
-        #autocolorscale = False,
         name = types[i] + ' : '+str(len((df_sub))),
-        marker = dict(
-            line = dict (color = colors[i],width = 0.5),
-            #sizemode = 'area',
-            size = types[i]
-            #size = len(df_sub)/8324
+        marker = go.scattergeo.Marker(
+            color = colors[i],
+            sizemode = 'area'
+                )
+    ) )
+    
+     
+layout = dict(
+        title = '<b>Most Calamities</b>  <br>(Hover for details)',
+        #colorbar = True,
+        showlegend = True,
+        geo = go.layout.Geo(
+        showframe = False,
+        showcoastlines = True,
+        showcountries = True,
+        showland = True,
+        landcolor = 'rgb(217, 217, 217)',
+        subunitwidth=1,
+        countrywidth=1,
+        subunitcolor="rgb(255, 255, 255)",
+        countrycolor="rgb(255, 255, 255)"
+        
+        ),
+    )
+
+fig = go.Figure( data=cases, layout=layout )
+py.iplot( fig, validate=False, filename='Eqack 1', fileopt='overwrite' )   
 ```
 ## Legend dataset
 ```
